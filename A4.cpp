@@ -19,9 +19,9 @@ int main() {
     int x, y;
     cin >> x >> y;
     Point p(x, y);
-    cout << &p << endl;
-    cout << &p.x << endl;
-    cout << &p.y << endl;   
+    cout << &p << endl; //0x61feb0
+    cout << &p.x << endl; //0x61feb0
+    cout << &p.y << endl; //0x61feb4
     return 0;
 }
 
